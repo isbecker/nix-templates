@@ -1,3 +1,4 @@
-def main():
-    print("Hello, world!")
-    return 0
+import main
+import sys
+
+sys.exit(main.main())

@@ -1,4 +1,3 @@
-import main
-import sys
-
-sys.exit(main.main())
+def main() -> int:
+    print("Hello from main!")
+    return 0
