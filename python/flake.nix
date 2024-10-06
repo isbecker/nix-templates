@@ -1,5 +1,5 @@
 {
-  description = "Calendar scheduling helper";
+  description = "Flake-parts based Python project with devenv";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -22,7 +22,7 @@
         packages.default = pkgs.git;
 
         devenv.shells.default = {
-          name = "scheduler";
+          name = "python-project";
 
           dotenv = {
             enable = true;
